@@ -1,1 +1,26 @@
-# Esta é uma solução para o [desafio de landing page Huddle com seção introdutória única no Mentor Frontend](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0). Os desafios do Mentor Frontend ajudam você a aprimorar suas habilidades de programação por meio da criação de projetos realistas.
+# Projeto Huddle - Página Responsiva
+
+Este é um projeto baseado em um desafio de HTML e CSS, com foco em responsividade e boas práticas de desenvolvimento front-end.
+
+![Preview do Projeto](./src/design/desktop-preview.jpg)
+
+## 💻 Tecnologias utilizadas
+
+- HTML5
+- CSS3 (com reset.css e responsividade)
+- Flexbox
+- Media Queries
+
+## 📁 Estrutura de pastas
+
+projeto-huddle-base/
+├── README.md
+├── index.html
+├── style-guide.md
+├── src/
+│ ├── css/
+│ │ ├── estilos.css
+│ │ ├── reset.css
+│ │ └── responsivo.css
+│ ├── images/
+│ └── design/
