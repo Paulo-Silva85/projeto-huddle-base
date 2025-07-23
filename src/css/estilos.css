@@ -1,0 +1,82 @@
+body {
+  max-width: 1440px;
+  min-height: 100vh;
+  background-color: hsl(257, 40%, 49%);
+  background-image: url('../images/bg-desktop.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  
+}
+.cabecalho {
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    width: 100vw;
+}
+
+.container .informacoes {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding: 40px;
+    gap: 2rem;
+    
+    
+}
+
+.container .informacoes h1 {
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.container .informacoes p {
+    font-size: 2rem;
+    
+}
+
+.container .informacoes .btn-register {
+   width: 200px;
+   height: 50px;
+   background-color: #fff;
+   border-radius: 50px;
+   text-align: center;
+   line-height: 50px;
+   font-size: 1.6rem; 
+   transition: 0.3s ease-in-out;
+}
+
+.container .informacoes .btn-register:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+
+}
+
+.roda-pe .redes-sociais {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 3rem;
+    gap: 20px;
+}
+
+.roda-pe .redes-sociais i {
+    color: #fff;
+    border: 2px solid #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 55px;
+}
+
+.roda-pe .redes-sociais i:hover {
+    color: hsl(300, 69%, 71%);
+    border: 2px solid hsl(300, 69%, 71%);
+}
+

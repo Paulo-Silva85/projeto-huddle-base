@@ -1,0 +1,1 @@
+# Esta é uma solução para o [desafio de landing page Huddle com seção introdutória única no Mentor Frontend](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0). Os desafios do Mentor Frontend ajudam você a aprimorar suas habilidades de programação por meio da criação de projetos realistas.

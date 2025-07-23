@@ -1,0 +1,60 @@
+@media (max-width: 768px) {
+  body {
+    background-image: url('../images/bg-mobile.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+  }
+
+  .cabecalho {
+    text-align: center;
+    padding: 10px;
+  }
+
+  /* Se tiver container ou conteúdo */
+  .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  /* Ajustes de texto, botões, imagens, etc. */
+ .informacoes h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .informacoes p {
+    font-size: 1.4rem;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  .container img {
+    max-width: 100%;
+    height: auto;
+    
+  }
+
+    .container .informacoes .btn-register {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;   
+  }
+
+  .roda-pe .redes-sociais {
+    width: 100vw;
+    justify-content: center;
+    margin-bottom: 40px;
+    
+  }
+
+  .roda-pe .redes-sociais i {
+    border: 1px solid #fff;
+    font-size: 1.6rem;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    
+  }
+}
